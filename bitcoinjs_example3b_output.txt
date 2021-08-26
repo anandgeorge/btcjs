@@ -1,0 +1,57 @@
+Enter the private key of the source address (WIF format): xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+JSON unspent { tx_hash: '2200b8d41504359565ac35d6d0f64b9bbe5540c4c9b3498b933371347fe04dfc',
+  block_height: 867698,
+  tx_input_n: -1,
+  tx_output_n: 1,
+  value: 1250000000,
+  ref_balance: 1391851850,
+  spent: false,
+  confirmations: 3,
+  confirmed: '2016-05-28T12:02:32Z',
+  double_spend: false }
+Found an unspent transaction output with  12.5  BTC.
+Enter a destination address: mjkR4541JSBPJotRxFWkY1rwmL68PJ71nX
+Unspent value (BTC)=  12.5
+Tx fee (BTC)=  0.0001
+Withdraw amount (BTC)=  12.4999
+TransactionBuilder input tx_hash =  2200b8d41504359565ac35d6d0f64b9bbe5540c4c9b3498b933371347fe04dfc
+TransactionBuilder input tx_output_n =  1
+tx =  Transaction {
+  version: 1,
+  locktime: 0,
+  ins:
+   [ { hash: <Buffer fc 4d e0 7f 34 71 33 93 8b 49 b3 c9 c4 40 55 be 9b 4b f6 d0 d6 35 ac 65 95 35 04 15 d4 b8 00 22>,
+       index: 1,
+       script: <Buffer 48 30 45 02 21 00 8e 3a 80 66 6e d7 f5 90 c2 fb 91 44 61 06 90 18 9d ce f8 5a 91 37 20 dd 7e ca 20 90 0d 02
+ d9 61 02 20 5f 55 5b 1c a6 97 93 5d 6e 8f ... >,
+       sequence: 4294967295 } ],
+  outs:
+   [ { script: <Buffer 76 a9 14 2e 6c 3f 73 14 98 87 c2 67 6b bc 73 79 7f 3a 0a 9a 1d 20 12 88 ac>,
+       value: 1249990000 } ] }
+Send 12.4999 plus miner fee? (y/N):y
+tx in hex =  0100000001fc4de07f347133938b49b3c9c44055be9b4bf6d0d635ac6595350415d4b80022010000006b4830450221008e3a80666ed7f590c2fb9
+144610690189dcef85a913720dd7eca20900d02d96102205f555b1ca697935d6e8f3f3e67fd40e3374cb51c42a6e5921db4ed37e0a26351012102a9a84a89c5d48
+cbf0dc47a324ef5b24bfcd4aa6e199f827ec0f6dd11d5ce1bbcffffffff017055814a000000001976a9142e6c3f73149887c2676bbc73797f3a0a9a1d201288ac0
+0000000
+Broadcast results: { tx:
+   { block_height: -1,
+     block_index: -1,
+     hash: '4047443fcb3a7e7d096dd018e780a7bf3de06bcae620e48d3b8b7391f905fdf2',
+     addresses:
+      [ 'mjkR4541JSBPJotRxFWkY1rwmL68PJ71nX',
+        'mhEtqrHsp5UNxVRj4X5zoheShfp782rggs' ],
+     total: 1249990000,
+     fees: 10000,
+     size: 192,
+     preference: 'high',
+     relayed_by: 'xx.xx.xx.xx, 127.0.0.1',
+     received: '2016-05-29T11:23:06.218947689Z',
+     ver: 1,
+     lock_time: 0,
+     double_spend: false,
+     vin_sz: 1,
+     vout_sz: 1,
+     confirmations: 0,
+     inputs: [ [Object] ],
+     outputs: [ [Object] ] } }
+Transaction send with hash: 4047443fcb3a7e7d096dd018e780a7bf3de06bcae620e48d3b8b7391f905fdf2
